@@ -26,5 +26,17 @@ Aplicação de cadastro de projetos orçamentados completo para prática de conc
 
 - Clone o projeto em sua máquina:
 ```bash
-  git clone
+  git clone https://github.com/Guilherme-Maciel/costs.git
 ```
+- Instale o `node_modules` no projeto:
+```bash
+  npm install
+```
+- Rode o projeto e o servidor `json-server` em consoles diferentes:
+```bash
+  npm run backend
+```
+```bash
+  npm start
+```
+
