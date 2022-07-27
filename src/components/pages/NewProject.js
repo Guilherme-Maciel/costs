@@ -26,7 +26,7 @@ function NewProject(){
             (data) => {
                 console.log(data)
                 //redirect
-                history.push('/projects', {message: 'Projeto implementado com sucesso!'})
+                history.push('/projects', {message: 'Projeto implementado com sucesso!', type: 'success'})
             }
         )
         .catch(
